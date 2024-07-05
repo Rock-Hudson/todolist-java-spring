@@ -1,10 +1,10 @@
 package br.com.rocksystems.todolist.user;
 
+
 import lombok.Data;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 @Data
-@EntityScan
+@Entity(name ="tb_usuarios")
 public class UserModel {
 
     private String userName;
